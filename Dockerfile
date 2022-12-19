@@ -1,7 +1,7 @@
 FROM node:12.16.1-alpine3.9
 
 # magic
-LABEL org.opencontainers.image.source https://github.com/MatchaOnMuffins/Docker-Jenkins
+LABEL org.opencontainers.image.source = "https://github.com/MatchaOnMuffins/Docker-Jenkins"
 
 # Create app directory
 WORKDIR /usr/src/app
